@@ -36,10 +36,10 @@ disqus_shortname = None
 html_favicon = 'tinkerer.ico'
 
 # Pick another Tinkerer theme or use your own
-html_theme = "flat"
+html_theme = "dark"
 
 # Theme-specific options, see docs
-html_theme_options = { }
+html_theme_options = {}
 
 # Link to RSS service like FeedBurner if any, otherwise feed is
 # linked directly
