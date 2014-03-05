@@ -1,3 +1,3 @@
 [submodule "docs/_themes/graphite"]
 	path = docs/_themes/graphite
-	url = git@github.com:Cartroo/sphinx-theme-graphite.git
+	url = git@github.com:sashaacker/sphinx-theme-graphite.git
