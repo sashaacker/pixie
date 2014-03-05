@@ -14,7 +14,6 @@ if sys.version_info[0:2] == (2, 6):
 
 setup(
     name="pixie",
-    version="0.0",
     author="Alexis Sasha Acker",
     author_email="asackerwalters@gmail.com",
     description="An IRC Bot",
@@ -23,5 +22,7 @@ setup(
     long_description=read('README.rst'),
     install_requires=install_requires,
     setup_requires=['vcversioner'],
-    vcversioner={},
+    vcversioner={
+        'version_module_paths': ['pixie/_version.py'],
+    },
 )
