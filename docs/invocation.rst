@@ -78,12 +78,12 @@ configuration file is given bellow.
 
 ``keyfile``
   If using SSL (defined a server with an ``ircs`` scheme), this may optionally
-  be set to the private key to use for the ssl connection.  This may also
-  reference the path of a file with both a public and private key.
+  be set to the private key to use for the ssl connection.
 
 ``certfile``
   As ``keyfile``, but sets the public key.  ``keyfile`` must not also include a
-  public key if this is set.
+  public key if this is set.  This may also reference the path of a file with
+  both a public and private key.
 
 ``ca_certs``
   As ``keyfile``, but sets the path to a file containing certificate authority
