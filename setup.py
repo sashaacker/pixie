@@ -22,4 +22,6 @@ setup(
     packages=find_packages(),
     long_description=read('README.rst'),
     install_requires=install_requires,
+    setup_requires=['vcversioner'],
+    vcversioner={},
 )
